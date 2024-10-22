@@ -1,8 +1,8 @@
 ﻿using System;
-string usrName;
+
  Console.WriteLine("Enter your username: ");
 
- usrName =Console.ReadLine();
+string usrName =Console.ReadLine();
 
 Console.WriteLine("Username is: " + usrName);
 
