@@ -1,25 +1,27 @@
 ﻿using System;
 
- Console.WriteLine("Enter your username: ");
+class Oppi
+{
 
-string usrName =Console.ReadLine();
+    static void Main(string[] args)
+    {
+        String Name;
 
-Console.WriteLine("Username is: " + usrName);
+        Name = "Allu Arjun";
 
-Console.WriteLine("Enter your age:");
+        String id;id = "35";
+        string mark;
 
-int age = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("your age is: " + age);
+        mark = "95";
 
-
-const double pi = 3.14;
-
-double r;
-Console.WriteLine("Enter Radius: ");
-r = Convert.ToDouble(Console.ReadLine());
-double areaCircle = pi * r * r;
-
-Console.WriteLine("Radius:{0} ,Area: {1}",r, areaCircle);
+        Console.WriteLine("Name: {0}", Name);
+        Console.WriteLine("Id: {0}", id);
+        Console.WriteLine("Marks: {0}", mark);
+     
 
 
-  
+    }
+
+
+
+}
